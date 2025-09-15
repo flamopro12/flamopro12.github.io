@@ -1,7 +1,8 @@
 # Personal Portfolio ⚡️ 
-> A clean, beautiful, responsive portfolio template for Software Developers!
+**Name: Rayan Mustafa**\
+**This Repository is forked from: https://varadbhogayata.github.io**
 
-> https://varadbhogayata.github.io
+> A clean, beautiful, responsive portfolio template for Software Developers!
 
 ![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
 ![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/varadbhogayata.github.io)
