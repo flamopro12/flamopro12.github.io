@@ -1,20 +1,9 @@
 // Array of project data
 const projects = [
-  { title: "AI Chatbot", 
-    description: "A chatbot using NLP in Python." 
-  },
-  {
-    title: "E-Commerce Website",
-    description: "Full-stack online shop with React & Node.js.",
-  },
-  {
-    title: "Portfolio Site",
-    description: "Personal portfolio built with HTML, CSS, JS.",
-  },
-  {
-    title: "IoT Home Automation",
-    description: "Smart home system with Raspberry Pi and sensors.",
-  },
+  { title: "AI Chatbot", description: "A chatbot using NLP in Python." },
+  { title: "E-Commerce Website", description: "Full-stack online shop with React & Node.js." },
+  { title: "Portfolio Site", description: "Personal portfolio built with HTML, CSS, JS." },
+  { title: "IoT Home Automation", description: "Smart home system with Raspberry Pi and sensors." }
 ];
 
 // DOM elements
@@ -27,13 +16,10 @@ const projectsPerLoad = 1; // show one at a time
 
 // Function to render projects
 function loadProjects() {
-  const nextProjects = projects.slice(
-    displayedCount,
-    displayedCount + projectsPerLoad
-  );
+  const nextProjects = projects.slice(displayedCount, displayedCount + projectsPerLoad);
 
-  nextProjects.forEach((project) => {
-    const sizeDiv = document.createElement("div");
+  nextProjects.forEach(project => {
+    const projectDiv = document.createElement("div");
     projectDiv.classList.add("project");
     projectDiv.innerHTML = `
       <h3>${project.title}</h3>

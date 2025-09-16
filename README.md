@@ -71,3 +71,22 @@ To view a live example, **[click here](https://varadbhogayata.github.io/)**
 
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+
+
+## Screenshots
+
+### Personal GitHub Repository
+**Link**: https://flamopro12.github.io/
+![alt text](image.png)
+
+### Theme Color Change
+![alt text](image-1.png)
+
+### Places Travelled
+![alt text](image-2.png)
+
+
+### Recent Projects
+![alt text](image-3.png)
+
+![alt text](image-4.png)
