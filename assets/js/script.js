@@ -1,9 +1,8 @@
 // Array of project data
 const projects = [
-  { title: "AI Chatbot", description: "A chatbot using NLP in Python." },
-  { title: "E-Commerce Website", description: "Full-stack online shop with React & Node.js." },
-  { title: "Portfolio Site", description: "Personal portfolio built with HTML, CSS, JS." },
-  { title: "IoT Home Automation", description: "Smart home system with Raspberry Pi and sensors." }
+  { title: "Robotic Hand Controlled by glove", description: "A person can move their hand wearing glove and the robotic hand will mimic the movement built using C & STM32." },
+  { title: "Home Lab", description: "Using a mini-pc, deployed a home server with multple essential server such as Network-Attached Storage using SMB & Password Manager." },
+  { title: "Garbage Classification ML model", description: "A Convolutional Neural Network Model Developed using Pytorch to classify picture of garbage" }
 ];
 
 // DOM elements
